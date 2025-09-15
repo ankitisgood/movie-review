@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 // Base URL for API calls
-const API_BASE_URL = 'http://localhost:3002/api'
+const API_BASE_URL = 'https://movie-review-backend1.onrender.com/api'
 
 // Create axios instance
 const api = axios.create({
