@@ -1,5 +1,5 @@
 import { User, Review, Watchlist, Movie } from '../models/index.js';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 
 // GET /users/:id - Get user profile with reviews
 export const getUserProfile = async (req, res) => {
